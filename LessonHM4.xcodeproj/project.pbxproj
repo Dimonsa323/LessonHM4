@@ -13,6 +13,10 @@
 		14152E992878425000B40E5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14152E972878425000B40E5A /* Main.storyboard */; };
 		14152E9B2878425100B40E5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14152E9A2878425100B40E5A /* Assets.xcassets */; };
 		14152E9E2878425100B40E5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14152E9C2878425100B40E5A /* LaunchScreen.storyboard */; };
+		14152EA628789BC100B40E5A /* InformationDisplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14152EA528789BC100B40E5A /* InformationDisplayViewController.swift */; };
+		14152EA92878BCD900B40E5A /* UserInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14152EA82878BCD900B40E5A /* UserInfoVC.swift */; };
+		14152EAB2878BD7500B40E5A /* AddDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14152EAA2878BD7500B40E5A /* AddDescription.swift */; };
+		14152EAE287981ED00B40E5A /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14152EAD287981ED00B40E5A /* UserInfo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		14152E9A2878425100B40E5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		14152E9D2878425100B40E5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		14152E9F2878425100B40E5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14152EA528789BC100B40E5A /* InformationDisplayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationDisplayViewController.swift; sourceTree = "<group>"; };
+		14152EA82878BCD900B40E5A /* UserInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoVC.swift; sourceTree = "<group>"; };
+		14152EAA2878BD7500B40E5A /* AddDescription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDescription.swift; sourceTree = "<group>"; };
+		14152EAD287981ED00B40E5A /* UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +64,43 @@
 		14152E902878425000B40E5A /* LessonHM4 */ = {
 			isa = PBXGroup;
 			children = (
+				14152EAC2879819F00B40E5A /* Models */,
 				14152E912878425000B40E5A /* AppDelegate.swift */,
 				14152E932878425000B40E5A /* SceneDelegate.swift */,
-				14152E952878425000B40E5A /* ViewController.swift */,
 				14152E972878425000B40E5A /* Main.storyboard */,
+				14152EA728789BD900B40E5A /* ViewControlle */,
 				14152E9A2878425100B40E5A /* Assets.xcassets */,
 				14152E9C2878425100B40E5A /* LaunchScreen.storyboard */,
 				14152E9F2878425100B40E5A /* Info.plist */,
 			);
 			path = LessonHM4;
+			sourceTree = "<group>";
+		};
+		14152EA728789BD900B40E5A /* ViewControlle */ = {
+			isa = PBXGroup;
+			children = (
+				14152EAA2878BD7500B40E5A /* AddDescription.swift */,
+				14152EA82878BCD900B40E5A /* UserInfoVC.swift */,
+				14152E952878425000B40E5A /* ViewController.swift */,
+				14152EA528789BC100B40E5A /* InformationDisplayViewController.swift */,
+			);
+			path = ViewControlle;
+			sourceTree = "<group>";
+		};
+		14152EAC2879819F00B40E5A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				14152EAD287981ED00B40E5A /* UserInfo.swift */,
+				14152EAF28798DCD00B40E5A /* SupportingFiles */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		14152EAF28798DCD00B40E5A /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SupportingFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +174,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14152EAB2878BD7500B40E5A /* AddDescription.swift in Sources */,
+				14152EA628789BC100B40E5A /* InformationDisplayViewController.swift in Sources */,
 				14152E962878425000B40E5A /* ViewController.swift in Sources */,
 				14152E922878425000B40E5A /* AppDelegate.swift in Sources */,
 				14152E942878425000B40E5A /* SceneDelegate.swift in Sources */,
+				14152EAE287981ED00B40E5A /* UserInfo.swift in Sources */,
+				14152EA92878BCD900B40E5A /* UserInfoVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
